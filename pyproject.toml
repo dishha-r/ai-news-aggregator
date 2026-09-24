@@ -1,0 +1,29 @@
+[project]
+name = "my-ai-news-aggregator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "dishha-r", email = "dishha23@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "docling>=2.127.0",
+    "feedparser>=6.0.14",
+    "markdown>=3.10.3",
+    "markdownify>=1.2.3",
+    "openai>=3.14.1",
+    "psycopg2-binary>=2.9.13",
+    "pydantic>=2.13.5",
+    "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
+    "sqlalchemy>=2.0.54",
+    "truststore>=0.10.4",
+    "youtube-transcript-api>=1.2.4",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+]
